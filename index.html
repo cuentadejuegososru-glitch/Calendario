@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💝 Calendario de Adviento 💝</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <!-- Header banner image replaces the h1 text; uses images/headerBanner.png. If missing, the alt text will show. -->
+        <img id="header-banner" src="images/headerBanner.png" alt="💝 Calendario de Adviento 💝" onerror="this.onerror=null;this.style.display='none'" />
+    </div>
+
+    <div class="calendar" id="calendar"></div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal()">×</button>
+            <div id="password-view">
+                <h2 id="modal-title">DÍA 1</h2>
+                <p style="opacity: 0.7;">Ingresa la contraseña para abrir este regalo</p>
+                <input type="password" class="password-input" id="password-input" placeholder="Contraseña">
+                <button class="submit-btn" onclick="checkPassword()">Abrir</button>
+                <div class="error-message" id="error-message">❌ Contraseña incorrecta</div>
+            </div>
+            <div id="reward-view" style="display: none;">
+                <h2 id="reward-title">DÍA 1</h2>
+                <div class="reward-icon" id="reward-icon">🎁✨</div>
+                <p id="modal-message"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>
