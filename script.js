@@ -1,7 +1,7 @@
 // ============================================
 // ⚙️ CONFIGURACIÓN PARA TESTING
 // ============================================
-const TEST_DATE = new Date('2025-12-15T10:00:00'); // Cambia a new Date('2025-12-15T10:00:00') para testear
+const TEST_DATE = new Date('2025-12-25T10:00:00'); // Cambia a new Date('2025-12-15T10:00:00') para testear
 
 // ============================================
 // 🔐 CONTRASEÑAS POR DÍA
@@ -18,17 +18,17 @@ const passwords = {
     9: "pareja",
     10: "forever",
     11: "cariño",
-    12: "corazon",
+    12: "corazón",
     13: "dulzura",
     14: "bonita",
     15: "preciosa",
     16: "tesoro",
     17: "estrella",
-    18: "alegria",
+    18: "alegría",
     19: "sonrisa",
     20: "risas",
     21: "aventura",
-    22: "suenos",
+    22: "sueños",
     23: "magia",
     24: "nochebuena",
     25: "navidad"
@@ -38,31 +38,31 @@ const passwords = {
 // 🎁 RECOMPENSAS POR DÍA
 // ============================================
 const rewards = {
-    1: "¡Primer día! Hoy te mereces un abrazo extra largo",
-    2: "Te quiero preparar tu desayuno favorito",
-    3: "Una sesión de películas con palomitas",
-    4: "Te doy un masaje relajante",
-    5: "Cena romántica en casa",
-    6: "Un paseo por tu lugar favorito",
-    7: "¡Una semana completa! Regalo sorpresa",
-    8: "Tarde de juegos de mesa y risas",
-    9: "Te escribo una carta de amor",
-    10: "Karaoke en casa con tus canciones favoritas",
-    11: "Sesión de fotos divertidas juntos",
-    12: "Picnic en el parque",
-    13: "Maratón de tu serie favorita",
-    14: "Dos semanas! Salida especial",
-    15: "Clase de cocina juntos ",
-    16: "Noche de spa en casa",
-    17: "Paseo nocturno bajo las estrellas",
-    18: "Construimos algo juntos",
-    19: "Tarde de repostería",
-    20: "Concierto o evento especial",
-    21: "¡Última semana! Mini escapada",
-    22: "Noche de juegos de video",
-    23: "Sesión de baile en casa",
-    24: "¡Nochebuena! Regalo especial de Navidad",
-    25: "¡FELIZ NAVIDAD! 🎅🎁 El mejor regalo eres tú"
+    1: "Categoría: ",
+    2: "Categoría: ",
+    3: "Categoría: ",
+    4: "Categoría: ",
+    5: "Categoría: ",
+    6: "Categoría: ",
+    7: "Categoría: ",
+    8: "Categoría: ",
+    9: "Categoría: ",
+    10: "Categoría: ",
+    11: "Categoría: ",
+    12: "Categoría: ",
+    13: "Categoría: ",
+    14: "Categoría: ",
+    15: "Categoría: ",
+    16: "Categoría: ",
+    17: "Categoría: ",
+    18: "Categoría: ",
+    19: "Categoría: ",
+    20: "Categoría: ",
+    21: "Categoría: ",
+    22: "Categoría: ",
+    23: "Categoría: ",
+    24: "Categoría: ",
+    25: "Categoría: "
 };
 
 const banners = {
@@ -92,6 +92,34 @@ const banners = {
     24: "images/day24.png",
     25: "images/day25.png"
 }
+
+const hints = {
+    1: "_ _ _ _ : En un teclado QWERTY español: 2;1 + 3;7 + 1;9 + 1;4",
+    2: "Código binario: 01100010 01100101 01110011 01101111 01110011. Conviértelo a ASCII.",
+    3: "Soy una acción física. Mi código de barras es: 1-2-19-1-27-16-20",
+    4: "",
+    5: "En Morse: ... .. . -- .--. .-. .",
+    6: "Número de teléfono antiguo (T9): 83-78437-6. Escríbelo como una palabra.",
+    7: "Palíndromo de 4 letras. Palabra cariñosa. Posiciones: 2,5,2,5",
+    8: "En hexadecimal: 66 65 6C 69 63 65 73. Convierte a texto.",
+    9: "Crucigrama: P _ _ E _ A (6 letras). 'Lo que formamos' (2 personas juntas).",
+    10: "En inglés. ROT13: sberire",
+    11: "",
+    12: "🫀 ❤️",
+    13: "",
+    14: "",
+    15: "",
+    16: "Mapa del tesoro: TE + oro escondido (SOR + O). X marca el spot: 6 letras.",
+    17: "",
+    18: "Sustituye números por letras: 1-12-5-7-18-9-1",
+    19: "Expresión facial de felicidad: 7 letras.",
+    20: "Onomatopeya × 2: JA + JA = ? Pero en una palabra de 5 letras que las contiene.",
+    21: "",
+    22: "Actividad nocturna REM. Lo que construimos juntos.",
+    23: "🎩🐰✨ = 5 letras. Abracadabra simplificado: M-A-G-I-A.",
+    24: "",
+    25: "Anagrama de 'VIDA DAN'"
+};
 
 const TIMEZONE = 'Europe/Madrid';
 const START_DATE = new Date('2025-12-01T00:00:00+01:00');
@@ -225,6 +253,7 @@ function openDay(day) {
     currentDayToOpen = day;
     const isOpened = openedDays.includes(day);
     
+    document.getElementById("modal-hint").textContent = hints[day] || "Pista disponible pronto...";
     document.getElementById('modal-title').textContent = `DÍA ${day}`;
     document.getElementById('reward-title').textContent = `DÍA ${day}`;
     const rewardIconEl = document.getElementById('reward-icon');
