@@ -13,7 +13,7 @@ const passwords = {
     4: "juntos",
     5: "siempre",
     6: "tequiero",
-    7: "mimor",
+    7: "bebe",
     8: "felices",
     9: "pareja",
     10: "forever",
