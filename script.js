@@ -1,7 +1,7 @@
 // ============================================
 // ⚙️ CONFIGURACIÓN PARA TESTING
 // ============================================
-const TEST_DATE = new Date('2025-12-25T10:00:00'); // Cambia a new Date('2025-12-15T10:00:00') para testear
+const TEST_DATE = null; // Cambia a new Date('2025-12-15T10:00:00') para testear
 
 // ============================================
 // 🔐 CONTRASEÑAS POR DÍA
