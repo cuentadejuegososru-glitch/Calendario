@@ -117,7 +117,7 @@ const hints = {
     21: "",
     22: "Actividad nocturna REM. Lo que construimos juntos.",
     23: "🎩🐰✨ = 5 letras.",
-    24: "En química y en minúsculas: 7-8-6-2-5-92 + "E" + 92-11",
+    24: "En química y en minúsculas: 7-8-6-2-5-92 + 'E' + 92-11",
     25: "Anagrama de 'VIDADAN'"
 };
 
