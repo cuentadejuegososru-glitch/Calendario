@@ -109,7 +109,7 @@ const hints = {
     13: "",
     14: "En Atbash: Ylnrgz",
     15: "",
-    16: "🍵+🪙",
+    16: "🍵=🪙",
     17: "",
     18: "Sustituye números por letras: 1-12-5-7-18-9-1",
     19: "Expresión facial de felicidad: 7 letras.",
