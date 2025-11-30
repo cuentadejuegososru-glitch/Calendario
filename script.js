@@ -101,24 +101,24 @@ const hints = {
     5: "En Morse: ... .. . -- .--. .-. .",
     6: "Número de teléfono antiguo (T9): 83-7-8-4--3-7--6--. Escríbelo como una palabra.",
     7: "Palíndromo de 4 letras. Palabra cariñosa. Posiciones: 2,5,2,5",
-    8: "En hexadecimal: 66 65 6C 69 63 65 73. Convierte a texto.",
-    9: "Crucigrama: P _ _ E _ A (6 letras). 'Lo que formamos' (2 personas juntas).",
+    8: "En hexadecimal: 66 65 6C 69 63 65 73. Convierte a decimal y luego a ASCII.",
+    9: "Crucigrama: P _ _ E _ A.",
     10: "En inglés. ROT13: sberire",
     11: "",
     12: "🫀 ❤️",
     13: "",
     14: "",
     15: "",
-    16: "Mapa del tesoro: TE + oro escondido (SOR + O). X marca el spot: 6 letras.",
+    16: "🍵+🪙",
     17: "",
     18: "Sustituye números por letras: 1-12-5-7-18-9-1",
     19: "Expresión facial de felicidad: 7 letras.",
-    20: "Onomatopeya × 2: JA + JA = ? Pero en una palabra de 5 letras que las contiene.",
+    20: "JA + JA = ? Pero en una palabra de 5 letras.",
     21: "",
     22: "Actividad nocturna REM. Lo que construimos juntos.",
-    23: "🎩🐰✨ = 5 letras. Abracadabra simplificado: M-A-G-I-A.",
+    23: "🎩🐰✨ = 5 letras.",
     24: "",
-    25: "Anagrama de 'VIDA DAN'"
+    25: "Anagrama de 'VIDADAN'"
 };
 
 const TIMEZONE = 'Europe/Madrid';
