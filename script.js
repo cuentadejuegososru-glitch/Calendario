@@ -99,7 +99,7 @@ const hints = {
     3: "Soy una acción física. Mi código de barras es: 1-2-19-1-27-16-20",
     4: "",
     5: "En Morse: ... .. . -- .--. .-. .",
-    6: "Número de teléfono antiguo (T9): 83-78437-6. Escríbelo como una palabra.",
+    6: "Número de teléfono antiguo (T9): 83-7-8-4--3-7--6--. Escríbelo como una palabra.",
     7: "Palíndromo de 4 letras. Palabra cariñosa. Posiciones: 2,5,2,5",
     8: "En hexadecimal: 66 65 6C 69 63 65 73. Convierte a texto.",
     9: "Crucigrama: P _ _ E _ A (6 letras). 'Lo que formamos' (2 personas juntas).",
