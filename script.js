@@ -97,8 +97,8 @@ const hints = {
     1: "_ _ _ _ : En un teclado QWERTY español: 2;1 + 3;7 + 1;9 + 1;4",
     2: "Código binario: 01100010 01100101 01110011 01101111 01110011. Conviértelo a ASCII.",
     3: "Soy una acción física. Mi código de barras es: 1-2-19-1-27-16-20",
-    4: "",
-    5: "En Morse: ... .. . -- .--. .-. .",
+    4: "En Base64: c2llbXByZQ, (primero pasar de base 64 a binario y luego de binario a alfabético.",
+    5: "En Morse: ... .. . -- .--. .-. . ",
     6: "Número de teléfono antiguo (T9): 83-7-8-4--3-7--6--. Escríbelo como una palabra.",
     7: "Palíndromo de 4 letras. Palabra cariñosa. Posiciones: 2,5,2,5",
     8: "En hexadecimal: 66 65 6C 69 63 65 73. Convierte a decimal y luego a ASCII.",
@@ -107,7 +107,7 @@ const hints = {
     11: "",
     12: "🫀 ❤️",
     13: "",
-    14: "",
+    14: "En Atbash: Ylnrgz",
     15: "",
     16: "🍵+🪙",
     17: "",
@@ -117,7 +117,7 @@ const hints = {
     21: "",
     22: "Actividad nocturna REM. Lo que construimos juntos.",
     23: "🎩🐰✨ = 5 letras.",
-    24: "",
+    24: "En química y en minúsculas: 7-8-6-2-5-92 + "E" + 92-11",
     25: "Anagrama de 'VIDADAN'"
 };
 
