@@ -1,7 +1,7 @@
 // ============================================
 // ⚙️ CONFIGURACIÓN PARA TESTING
 // ============================================
-const TEST_DATE = null; // Cambia a new Date('2025-12-15T10:00:00') para testear
+const TEST_DATE = new Date('2025-12-25T10:00:00'); // Cambia a new Date('2025-12-15T10:00:00') para testear
 
 // ============================================
 // 🔐 CONTRASEÑAS POR DÍA
@@ -38,31 +38,31 @@ const passwords = {
 // 🎁 RECOMPENSAS POR DÍA
 // ============================================
 const rewards = {
-    1: "Categoría: ",
-    2: "Categoría: ",
-    3: "Categoría: ",
-    4: "Categoría: ",
-    5: "Categoría: ",
-    6: "Categoría: ",
-    7: "Categoría: ",
-    8: "Categoría: ",
-    9: "Categoría: ",
-    10: "Categoría: ",
-    11: "Categoría: ",
-    12: "Categoría: ",
-    13: "Categoría: ",
-    14: "Categoría: ",
-    15: "Categoría: ",
-    16: "Categoría: ",
-    17: "Categoría: ",
-    18: "Categoría: ",
-    19: "Categoría: ",
-    20: "Categoría: ",
-    21: "Categoría: ",
-    22: "Categoría: ",
-    23: "Categoría: ",
-    24: "Categoría: ",
-    25: "Categoría: "
+    1: "Categoría: Asian Flavours",
+    2: "Categoría: Aroma Navideño",
+    3: "Categoría: Dulce",
+    4: "Categoría: Asian Flavours",
+    5: "Categoría: Self Care",
+    6: "Categoría: Papelería",
+    7: "Categoría: Asian Flavours",
+    8: "Categoría: Papelería",
+    9: "Categoría: Asian Flavours",
+    10: "Categoría: Self Care",
+    11: "Categoría: Cozy (Self Care)",
+    12: "Categoría: Asian Flavours",
+    13: "Categoría: Papelería",
+    14: "Categoría: Self Care",
+    15: "Categoría: Cozy (Self Care)",
+    16: "Categoría: Aroma Navideño",
+    17: "Categoría: Dulce",
+    18: "Categoría: Asian Flavours",
+    19: "Categoría: Papelería",
+    20: "Categoría: Asian Flavours",
+    21: "Categoría: Papelería",
+    22: "Categoría: Dulce",
+    23: "Categoría: Aroma Navideño",
+    24: "Categoría: Asian Flavours",
+    25: "Categoría: ESPECIAL"
 };
 
 const banners = {
