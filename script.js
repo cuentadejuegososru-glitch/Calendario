@@ -104,7 +104,7 @@ const hints = {
     8: "En hexadecimal: 66 65 6C 69 63 65 73. Convierte a decimal y luego a ASCII.",
     9: "Crucigrama: P _ _ E _ A.",
     10: "En inglés. ROT13: sberire",
-    11: "",
+    11: "La pista está incrustada en esta rara pero cierta afirmación: cada abrazo, realmente instancia ñoña oportuna.",
     12: "🫀 ❤️",
     13: "",
     14: "En Atbash: Ylnrgz",
