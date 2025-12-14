@@ -108,7 +108,7 @@ const hints = {
     12: "🫀 ❤️",
     13: "Ésta pregunta es complicada, la respuesta es ocxnhci. Es un cifrado que usa clave. la clave es 🍋",
     14: "En Atbash: Ylnrgz",
-    15: "",
+    15: "a la baldosa",
     16: "🍵=🥇",
     17: "",
     18: "Sustituye números por letras: 1-12-5-7-18-9-1",
