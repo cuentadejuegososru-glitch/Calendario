@@ -110,7 +110,7 @@ const hints = {
     14: "En Atbash: Ylnrgz",
     15: "a la baldosa",
     16: "🍵=🥇",
-    17: "",
+    17: "Estoy en el mar y en el cielo, pero no en la tierra. Que soy?",
     18: "Sustituye números por letras: 1-12-5-7-18-9-1",
     19: "Expresión facial de felicidad: 7 letras.",
     20: "JA + JA = ? Pero en una palabra de 5 letras.",
